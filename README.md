@@ -16,16 +16,16 @@ JWT_SECRET=jwtSecret APP_SECRET=secret npm run dev
 
 👑 2. Admin Login
 Admin account included in the seed:
-Email: ido1@mail.com
 
+Email: ido1@mail.com
 Password: 123456
 
 👤 3. Regular User Login
+
 Email: tomer10@mail.com
-
 Password: 123456
-Email: gil5@mail.com
 
+Email: gil5@mail.com
 Password: 123456
 
 📁 4. LocalStack S3 Bucket
