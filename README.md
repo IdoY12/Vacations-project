@@ -1,5 +1,3 @@
-45782-1-project-3
-
 🚀 Project Setup & Run Guide
 
 This project contains Frontend (React), Backend (Node + Express + Sequelize), MySQL, and LocalStack (S3 mock) — all running together via Docker Compose.
