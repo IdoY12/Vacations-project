@@ -35,8 +35,9 @@ export default function Login() {
             if (role === "admin") navigate("/admin");
             else navigate("/vacations");
 
-        } catch {
+        } catch(e) {
             setError("root", { message: "Email or password is incorrect" });
+            console.log(e)
         } finally {
             setIsSubmitting(false);
         }
