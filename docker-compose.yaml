@@ -53,7 +53,6 @@ services:
     image: localstack/localstack
     ports:
       - 4566:4566
-      - 4510-4559:4510-4559
     environment:
       - SERVICES=s3
       - DEBUG=1
