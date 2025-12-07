@@ -1,15 +1,16 @@
 🚀 Project Setup & Run Guide
 
-Important: Make sure the init script is executable
+### LocalStack Init Script Permissions
 
-LocalStack only runs .sh scripts if they have execute permission.
+LocalStack runs initialization scripts from `/etc/localstack/init/ready.d`.
+For the script to run, it **must be executable**.
 
-Run this once after cloning the repo:
+After cloning the repository, run:
 
 chmod +x localstack/init/ready.d/s3-init.sh
 
+If you skip this step, LocalStack will start without uploading the demo images.
 
-Otherwise LocalStack will start without uploading the images.
 
 This project contains Frontend (React), Backend (Node + Express + Sequelize), MySQL, and LocalStack (S3 mock) — all running together via Docker Compose.
 
